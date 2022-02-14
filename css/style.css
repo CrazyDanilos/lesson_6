@@ -1,0 +1,286 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700;900&display=swap');
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+/*==============================Главная страница=======================*/
+
+
+.header{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.container{
+	max-width: 810px;
+	margin: 0px auto;
+}
+
+main{
+	font-family: "Roboto+Slab";
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.h1main{
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+	color: blue;
+	font-weight: 900;
+	border-left: 10px dotted rebeccapurple;
+	border-right: 10px dashed rebeccapurple;
+}
+
+.firstp{
+	margin-bottom: 50px;
+	text-align: center;
+	border: 10px solid black;
+}
+
+.firstimg{
+	display: block;
+	width: 500px;
+	height: 500px;
+	margin: 0px auto;
+	margin-bottom: 50px;
+	border: 10px dotted red;
+}
+
+.h2main{
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+	color: blue;
+	font-weight: 900;
+}
+
+.secondp{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.secondpdash{
+	margin-bottom: 20px;
+	text-align: center;
+	border: 10px dashed green;
+}
+
+.secondpdouble{
+	margin-bottom: 20px;
+	text-align: center;
+	border: 10px double yellow;
+}
+
+.secondplrb{
+	margin-bottom: 20px;
+	text-align: center;
+	border-left: 5px solid red;
+	border-right: 10px dotted green;
+	border-bottom: 7px dashed yellowgreen;
+}
+
+
+.secondplrt{
+	margin-bottom: 20px;
+	text-align: center;
+	border-left: 5px solid rgb(58, 35, 35);
+	border-right: 10px dotted rgb(206, 120, 9);
+	border-top: 7px dashed rgb(7, 71, 207);
+}
+
+.secondpnone{
+	margin-bottom: 20px;
+	text-align: center;
+	border: 15px solid darkmagenta;
+	border-left: none;
+}
+
+.secondpbr1{
+	border: 45px solid green;
+	border-radius: 30px;
+	margin-bottom: 20px;
+}
+
+.secondpbr2{
+	border: 20px solid rgb(144, 17, 218);
+	border-radius: 40px 0px 40px 0px;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+.h3main{
+	color: blueviolet;
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+
+
+
+.secondpout1{
+	outline: dashed 10px green;
+	border-radius: 30px;
+	margin-bottom: 20px;
+}
+
+.secondpbs1{
+	border: 10px solid rgb(144, 17, 218);
+	margin-bottom: 20px;
+	border-radius: 50px;
+	box-shadow: inset 5px 10px 10px 5px green, 0 0 20px 0 red;
+	padding: 10px;
+}
+
+.secondpbs2{
+	border: 10px solid rgb(233, 129, 10);
+	margin-bottom: 20px;
+	border-radius: 50px;
+	box-shadow: 50px 70px 100px 50px rgb(216, 24, 152);
+	padding: 20px;
+}
+
+
+.secondimg{
+	display: block;
+	width: 500px;
+	height: 500px;
+	margin: 0px auto;
+	margin-bottom: 50px;
+	border-radius: 50%;
+	opacity: 0.3;
+}
+
+
+.secondpvis{
+	margin-bottom: 20px;
+	visibility: hidden;
+}
+
+.secondpopa{
+	margin-bottom: 20px;
+	opacity: 0;
+}
+
+.secondpdis{
+	margin-bottom: 20px;
+	display: none;
+}
+
+
+.footer{
+	text-align: center;
+
+}
+
+.button{
+	font-weight: 900;
+	font-size: 50px;
+	background-color: black;
+	color: beige;
+	width: 500px;
+	height: 80px;
+	border-radius: 50px;
+	text-align: center;
+	padding-top: 10px;
+	margin: 0px auto;
+}
+
+
+
+
+/*============================== Макет Figma ==========================*/
+
+
+.containerfig{
+	max-width: 1440px;
+	margin: 0px auto;
+}
+
+
+.mainfig{
+	font-family: "CircularStd";
+	font-weight: 400;
+	font-size: 18px;
+	color: #313131;
+	
+}
+
+.h1fig{
+	font-size: 64px;
+	text-align: center;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	
+}
+
+.p1fig{
+	font-size: 20px;
+	text-align: center;
+	margin: 0px auto;
+	margin-bottom: 224px;
+	width: 750px;
+	color: #5F5F5F;
+}
+
+.h2fig{
+	font-size: 34px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+
+.p2fig{
+	text-align: left;
+	width: 508px;
+	color: #5F5F5F;
+	margin-bottom: 125px;
+}
+
+
+.h3fig{
+	font-weight: 700;
+	color: #313131;
+	margin-bottom: 5px;
+}
+
+.p3fig{
+	color: #B8B8B8;
+	margin-bottom: 20px;
+}
+
+
+
+
